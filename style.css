@@ -34,3 +34,14 @@ html {
     height: 22vmin;
     width: 22vmin;
 }
+
+#restart {
+    font-size: 1.3em;
+    padding: 1em;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: none;
+    position: relative;
+    margin: 1.5em auto 0 auto;
+    display: block;
+}
