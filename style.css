@@ -29,6 +29,33 @@ html {
     gap: 2vmin;
 }
 
+.popup {
+    background: linear-gradient(135deg, #0b5318, #002805);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    font-size: 12vmin;
+}
+
+#new-game {
+    font-size: 0.6em;
+    padding: 0.5em 1em;
+    background-color: #1c3a38;
+    color: #ffffff;
+    border-radius: 0.2em;
+    border: none;
+}
+
+#message {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1em;
+}
+
 .button-option {
     background: #ffffff;
     height: 22vmin;
