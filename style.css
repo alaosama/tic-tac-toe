@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(135deg, #8052ec, #000);
+    background: linear-gradient(135deg, #67cb79, #d9ffde);
 }
 
 html {
@@ -28,6 +28,16 @@ html {
     flex-wrap: wrap;
     gap: 2vmin;
 }
+
+.button-option {
+    background: #4a9c4a;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 8px;
+    font-size: 12vmin;
+    color: #99dc7c;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.1);
 
 .popup {
     background: linear-gradient(135deg, #0b5318, #002805);
