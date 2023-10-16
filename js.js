@@ -14,3 +14,20 @@ let winningPattern = [
     [0,  , 4, 8],
     [2, 4, 6],
 ];
+
+// Player 'X' players first
+let xTrurn = true;
+let count = 0;
+
+// Display X/O on click
+btnRef.forEach((element) => {
+    element.addEventListener("click", () => {
+        if (xTurn) {
+            xTrurn = false;
+            // Display X
+            element.innerText = "X";
+            element.disabled = "true";
+        } else
+    }
+
+}
