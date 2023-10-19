@@ -34,4 +34,30 @@ const disableuButtons = () {
     // enable popup
     popupRef.classList.re("hide");
 };
+const disableuButtons = () {
+    btnRef.forEach((element) => (element.disbled = true));
+    // enable popup
+    popupRef.classList.re("hide");
+};
+btnRef.forEach(element => {
+    element.addEentListener("click", () => {
+        if (xTurn) {
+            xTurn = false;
+            // Display X
+            element.innerText = "x";
+            element.disabled = true;
+        }else {
+            xTurn = true;
+            //Display Y
+            element.innerText = "0";
+            element.disabled = true;
+        }
+
+        // Increment count on each click 
+        count+=1;
+        if(count === 9){}
+
+    }
+    )
+});
 }
