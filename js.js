@@ -18,6 +18,15 @@ let winningPattern = [
 // Player 'X' players first
 let xTrurn = true;
 let count = 0;
+const winChecker = () => {
+    for (let i of winningPattern) {
+        let [element1, element2, element3] = [
+            btnRef[i[0]].innerText,
+            btnRef[i[1]].innerText,
+            btnRef[i[2]].innerText,
+        ];
+    }
+}
 
 // Display X/O on click
 btnRef.forEach((element) => {
