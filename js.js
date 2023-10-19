@@ -29,5 +29,9 @@ btnRef.forEach((element) => {
             element.disabled = "true";
         } else
     }
-
+const disableuButtons = () {
+    btnRef.forEach((element) => (element.disbled = true));
+    // enable popup
+    popupRef.classList.re("hide");
+};
 }
